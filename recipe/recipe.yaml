@@ -31,7 +31,6 @@ tests:
   - python:
       imports:
         - azure.mgmt.recoveryservicesbackup
-        - azure.mgmt.recoveryservicesbackup.activestamp
       pip_check: true
       python_version: ${{ python_min }}.*
 about:
