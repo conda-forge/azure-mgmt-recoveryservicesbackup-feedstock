@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: azure-mgmt-recoveryservicesbackup
-  version: 11.0.0
+  version: "11.1.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/azure_mgmt_recoveryservicesbackup-${{ version }}.tar.gz
-  sha256: 0b38e29b989d7531741fa98248567ccc6384a80ad46a3de363c9e33a40971efb
+  sha256: b7b4ab1746e8a920b80c1f12a7e806dc13f0ba5cf7e357c7b457c5626fe26de4
 
 build:
   number: 0
