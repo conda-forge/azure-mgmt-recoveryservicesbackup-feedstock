@@ -32,7 +32,9 @@ tests:
       imports:
         - azure.mgmt.recoveryservicesbackup
       pip_check: true
-      python_version: ${{ python_min }}.*
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
 about:
   summary: Microsoft Azure Recovery Services Backup Management Client Library for Python
   license: MIT
